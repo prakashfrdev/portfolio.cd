@@ -58,6 +58,9 @@ const Skills = () => {
             <i class="fa-solid fa-chevron-right side-icon"></i>Using Javascript
             Libraries
           </p>
+          <p>
+            <i class="fa-solid fa-chevron-right side-icon"></i>Github Link is Bellow
+          </p>
         </div>
         <div className="logos-container">
           <img className="react-img" src={gitlogo}></img>
