@@ -1,0 +1,162 @@
+.contact-container{
+    width: 100%;
+    height: 100vh;
+    color: aliceblue;
+}
+.contact-inner{
+    margin: 50px 100px;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 20px;
+}
+.contact-container h2{
+    opacity: 0.6;
+    font-size: 18px;
+    padding:10px 0px;
+    letter-spacing: 2px;
+    font-family: "Poppins", sans-serif;
+}
+.contact-heading{
+    display: flex;
+    align-items: center;
+}
+.contact-icons{
+    color: aliceblue;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-left: 5px;
+    padding: 3px;
+    border-radius: 5px;
+}
+.contact-icons:hover{
+    background-color: rgb(209, 195, 178);
+    transform: scale(0.9);
+}
+.all-icons{
+    display: flex;
+    justify-content: space-around;
+}
+.social-icons{
+    margin: 20px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.20);
+    width: 400px;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.social-icons p{
+    font-size: 25px;
+    color: orange;
+    font-weight: bolder;
+}
+.inner-social{
+    margin-left:20px;
+}
+.location-icons{
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.20);
+    width: 400px;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+.linkedin:hover{
+     color: blue;
+}
+.insta:hover{
+    color:rgb(219, 45, 45);
+}
+.inner-location{
+    margin-left:20px;
+}
+.location-icons p{
+    font-size: 25px;
+    color: orange;
+    font-weight: bolder;
+}
+.sec-icons{
+    display: flex;
+    justify-content: space-around;
+}
+.mail-icons{
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.20);
+    width: 400px;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+.inner-mail{
+    margin-left:20px;
+}
+.mail-icons p{
+    font-size: 25px;
+    color: orange;
+    font-weight: bolder;
+}
+.phone-icons{
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.20);
+    width: 400px;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+.inner-phone{
+    margin-left:20px;
+}
+.phone-icons p{
+    font-size: 25px;
+    color: orange;
+    font-weight: bolder;
+}
+@media screen and (max-width:480px){
+    .contact-container{
+        height: 100%;
+    }
+    .contact-inner{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    .all-icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .social-icons{
+        margin: 20px 5px;
+        width: 280px;
+        padding: 10px 10px;
+    }
+    .location-icons{
+        margin: 20px 5px;
+        width: 280px;
+        padding: 10px 10px;
+    }
+    .contact-heading{
+        padding: 10px;
+    }
+    .inner-para{
+        padding: 10px;
+    }
+    .sec-icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .mail-icons{
+        margin: 20px 5px;
+        width: 280px;
+        padding: 10px 10px;
+    }
+    .phone-icons{
+        margin: 20px 5px;
+        width: 280px;
+        padding: 10px 10px;
+    }
+    .mail-icons h4{
+        font-size: 14px;
+    }
+    
+}
+
+

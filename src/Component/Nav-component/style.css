@@ -1,0 +1,45 @@
+.nav-component ul {
+     list-style: none;
+     display: flex;
+     font-size: 20px;
+     margin-left: -20px;
+     
+}
+.nav-component ul li{
+    padding: 20px 20px 0px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s  linear;
+    opacity: 0.7;
+    
+}
+.nav-component ul li::after{
+    content: '';
+    width: 0%;
+    height: 4px;
+    display: block;
+    margin-top: -5px;
+    border-bottom: 3px solid #18d26e ;
+    transition: all 0.5s  linear;
+   
+}
+.nav-component ul li:hover::after{
+        transform-origin: left;
+        width: 60%;
+        font-weight: bold;    
+} 
+.nav-component ul li:hover{
+   opacity: 1;
+   font-weight: bold;
+}
+.linked-rote{
+    text-decoration: none;
+}
+@media screen and (max-width:480px){
+    .nav-component{
+        display: none;
+    }
+    .about-header{
+        display: none;
+    }
+}

@@ -1,0 +1,10 @@
+.App {
+  /* text-align: center; */
+    background-image: url('./assets/melanie-leduc-nhlfPOVcMTw-unsplash.jpg');
+    width:100%;
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
