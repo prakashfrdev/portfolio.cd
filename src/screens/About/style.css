@@ -50,7 +50,9 @@
 }
 .about-img{
     width: 250px;
-    padding: 10px 20px;
+    padding: 10px 10px;
+    background-color:  rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
 }
 .bio-content h3{
     color: #18d26e;

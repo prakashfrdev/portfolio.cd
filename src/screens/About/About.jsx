@@ -3,7 +3,7 @@ import "./style.css";
 import Aos from "aos";
 import { useEffect } from "react";
 import Navbar from "../../Component/Nav-component/Navbar";
-import Imag from '../../assets/imgs-removebg.png'
+import Formal from '../../assets/formalimg.png'
 import Mobilecomp from "../../Component/Mobile-res/Mobilecomp";
 const About = () => {
   useEffect(()=>{
@@ -25,7 +25,7 @@ const About = () => {
           </div>
           <p className="inner-para"> LEARN MORE ABOUT ME </p>
           <div className="bio-data">
-          <img src={Imag} className="about-img"></img>
+          <img src={Formal} className="about-img"></img>
           <div className="bio-content">
             <h3>Frontend Developer & React Developer</h3>
             <div className="bio-container">
