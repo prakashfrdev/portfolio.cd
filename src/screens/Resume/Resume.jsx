@@ -4,12 +4,12 @@ import Mobilecomp from "../../Component/Mobile-res/Mobilecomp";
 import Navbar from "../../Component/Nav-component/Navbar";
 import  Aos  from "aos";
 import { useEffect } from "react";
-let dlUrl='http://localhost:3000/resumesp.pdf'
 
+let dlUrl='https://github.com/prakashfrdev/portfolio.cd/blob/d70590285cb18c9452e5cf9252839e4ad4c25c61/public/resumesp.pdf'
 const Resume = () => {
   const downloadFunc=(url)=>{
        const aTag=document.createElement('a');
-       aTag.href=dlUrl
+       aTag.href=url
        aTag.setAttribute('download','Resume')
        document.body.appendChild(aTag);
        aTag.click();
@@ -51,7 +51,7 @@ const Resume = () => {
               <div className="">
                 <p>HSC</p>
                 <p>percentage:46%</p>
-                <p>Sri Krishnasamy Arts And Science College</p>
+                <p>SHN Edward Hr Sec School,Sattur,626203</p>
               </div>
               <div className="educ-content">
                 <p>2018-2019</p>
@@ -61,7 +61,7 @@ const Resume = () => {
               <div className="">
                 <p>SSLC</p>
                 <p>percentage:57%</p>
-                <p>Sri Krishnasamy Arts And Science College</p>
+                <p>SHN Edward Hr Sec School,Sattur,626203</p>
               </div>
               <div className="educ-content">
                 <p>2016-2017</p>
