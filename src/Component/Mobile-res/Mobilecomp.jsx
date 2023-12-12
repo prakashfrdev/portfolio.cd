@@ -7,6 +7,7 @@ const Mobilecomp = () => {
   const changeIcons = () => {
     setIcons(!icons);
   };
+  
   return (
     <div className="mobile-container">
       <div className="inner-mob">
