@@ -59,7 +59,7 @@ const Skills = () => {
             Libraries
           </p>
           <p>
-            <i class="fa-solid fa-chevron-right side-icon"></i>Github Link is Below
+            {/* <i class="fa-solid fa-chevron-right side-icon"></i>Github Link is Below */}
           </p>
         </div>
         <div className="logos-container">
