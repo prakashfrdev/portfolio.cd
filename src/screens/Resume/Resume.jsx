@@ -5,7 +5,7 @@ import Navbar from "../../Component/Nav-component/Navbar";
 import  Aos  from "aos";
 import { useEffect } from "react";
 
-let dlUrl='https://github.com/prakashfrdev/portfolio.cd/blob/d70590285cb18c9452e5cf9252839e4ad4c25c61/public/resumesp.pdf'
+let dlUrl='https://github.com/prakashfrdev/portfolio.cd/blob/main/public/SuriyaPrakashDev.pdf'
 const Resume = () => {
   const downloadFunc=(url)=>{
        const aTag=document.createElement('a');
