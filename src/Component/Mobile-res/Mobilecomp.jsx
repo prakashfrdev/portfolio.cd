@@ -36,6 +36,9 @@ const Mobilecomp = () => {
               <Link to="/Resume" style={{ textDecoration: "none" }}>
                 <p>Resume</p>
               </Link>
+              <Link to="/Projects" style={{ textDecoration: "none" }}>
+                <p>Projects</p>
+              </Link>
               <Link to="/Skills" style={{ textDecoration: "none" }}>
                 <p>Skill</p>
               </Link>

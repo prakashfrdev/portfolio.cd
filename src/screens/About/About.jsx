@@ -11,7 +11,9 @@ const About = () => {
   },[])
   return (
     <div className="about-container">
+      <div className="resa">
        <Mobilecomp/>
+       </div>
       <div className="about-content">
         <div className="about-header" data-aos="fade-up">
           <p>Suriyaprakash</p>
@@ -22,8 +24,9 @@ const About = () => {
           <div className="about-heading">
           <h2>About</h2>
           <span className="liner"></span>
-          </div>
           <p className="inner-para"> LEARN MORE ABOUT ME </p>
+
+          </div>
           <div className="bio-data">
           <img src={Formal} className="about-img"></img>
           <div className="bio-content">

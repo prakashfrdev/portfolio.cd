@@ -1,6 +1,7 @@
 .resume-container{
     width:100%;
     height: 100%;
+    padding-bottom: 20px;
     color: white;
 }
 .resume-name{
@@ -68,7 +69,7 @@
 .download-resume:active{
     transform: scale(0.9);
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:850px) {
     .down-opt{
         display: flex;
         flex-direction: column;
