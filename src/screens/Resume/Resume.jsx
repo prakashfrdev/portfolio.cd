@@ -5,7 +5,7 @@ import Navbar from "../../Component/Nav-component/Navbar";
 import  Aos  from "aos";
 import { useEffect } from "react";
 
-let dlUrl='https://drive.google.com/file/d/1fDQ4lvb6RnFHJ-F-HGNeteYDX2vu22c6/view'
+let dlUrl='https://drive.google.com/file/d/16iOchReYtPGa3x-00t_kyadeK3hm2RRA/view?usp=drivesdk'
 const Resume = () => {
   const downloadFunc=(url)=>{
        const aTag=document.createElement('a');
@@ -71,7 +71,7 @@ const Resume = () => {
             <h3>Experience:</h3>
             <p className="course-data" style={{fontSize:'25px', fontWeight:'bolder'}}> Frontend developer intern :</p>
              <p className="course-data" style={{marginLeft:'30px', marginTop:'-10px'}}> I have completed 6-month internship in Inetz technologies vadapalani chennai.
-              on November-2023 to Febuary 2024</p>
+              on December-2023 to May-2024</p>
                         
           </div>
          
