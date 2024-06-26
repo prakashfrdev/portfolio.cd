@@ -5,7 +5,7 @@ import Navbar from "../../Component/Nav-component/Navbar";
 import  Aos  from "aos";
 import { useEffect } from "react";
 
-let dlUrl='https://drive.google.com/file/d/16iOchReYtPGa3x-00t_kyadeK3hm2RRA/view?usp=drivesdk'
+let dlUrl='https://drive.google.com/file/d/18Ko6662_2ZLtEMcxN52OUuYreUnsqw8X/view?usp=drivesdk '
 const Resume = () => {
   const downloadFunc=(url)=>{
        const aTag=document.createElement('a');
